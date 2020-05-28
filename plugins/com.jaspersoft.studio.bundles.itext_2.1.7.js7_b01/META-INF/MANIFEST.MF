@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: iText patched
+Bundle-SymbolicName: com.jaspersoft.studio.bundles.itext
+Bundle-Version: 2.1.7.js7_b01
+Bundle-ClassPath: itext-2.1.7.js7.jar
+Bundle-Vendor: TIBCO Software Inc.
+Export-Package: com.lowagie.text,com.lowagie.text.exceptions,com.lowag
+ ie.text.factories,com.lowagie.text.html,com.lowagie.text.html.simplep
+ arser,com.lowagie.text.pdf,com.lowagie.text.pdf.codec,com.lowagie.tex
+ t.pdf.codec.wmf,com.lowagie.text.pdf.collection,com.lowagie.text.pdf.
+ crypto,com.lowagie.text.pdf.draw,com.lowagie.text.pdf.events,com.lowa
+ gie.text.pdf.fonts,com.lowagie.text.pdf.fonts.cmaps,com.lowagie.text.
+ pdf.hyphenation,com.lowagie.text.pdf.interfaces,com.lowagie.text.pdf.
+ internal,com.lowagie.text.pdf.parser,com.lowagie.text.xml,com.lowagie
+ .text.xml.simpleparser,com.lowagie.text.xml.xmp,com.lowagie.tools
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.jaspersoft.studio.bundles.itext
+Import-Package: org.bouncycastle.asn1,org.bouncycastle.asn1.cmp,org.bo
+ uncycastle.asn1.cms,org.bouncycastle.asn1.ocsp,org.bouncycastle.asn1.
+ pkcs,org.bouncycastle.asn1.tsp,org.bouncycastle.asn1.x500,org.bouncyc
+ astle.asn1.x509,org.bouncycastle.cert.ocsp,org.bouncycastle.cms,org.b
+ ouncycastle.crypto,org.bouncycastle.crypto.engines,org.bouncycastle.c
+ rypto.modes,org.bouncycastle.crypto.paddings,org.bouncycastle.crypto.
+ params,org.bouncycastle.jce.provider,org.bouncycastle.tsp
+
